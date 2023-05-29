@@ -1,0 +1,341 @@
+/*body{
+	
+	background-image: url("https://th.bing.com/th/id/OIP.kGQIkjMJAd0WvGNv9dzSWQHaLH?w=117&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+  
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+  background-color: #FFDBDB;
+  position: relative;
+  
+  
+	
+	
+	
+	margin: 1em auto;
+}
+*/
+.back{
+  background:linear-gradient(90deg,#34FE1C,#F4F6F7,#2ECC71 ,#F4F6F7);
+}
+h2{
+  text-align: center;
+  color:#E30B5C;
+  font-weight: bold;
+  
+}
+
+
+  
+.head{
+  width: 100%;
+  height:15%;
+  
+  display: flex;
+  background:linear-gradient(90deg,#2ab7ca,#2ab7ca)  ;
+  justify-content: space-evenly;
+  
+}  
+  
+  
+
+
+img{
+  width:15%;
+  height:15%;
+  object-fit: contain;
+ 
+ 
+
+}
+
+.hello{
+  
+  
+  height:5%;
+  border:2px solid red;
+  }
+.cars{
+  
+  width:25%;
+  height: 30%;
+  object-fit: cover;
+}
+
+	
+
+
+
+.box{
+ 
+  width:40%;
+  height:60%;
+  margin:auto;
+  
+	
+  background: linear-gradient( 90deg,#AD2EBA,#2ab7ca);
+  
+  border-radius:2%;
+  
+  overflow:hidden;
+  padding-left:2%;
+
+
+
+}
+h1{
+	
+	font-size:2rem;
+  width:50%;
+  color:#E30B5C ;
+  padding-top: 4%;
+  margin-left:4%;
+  background-color:#FFDBDB;
+  border-radius: 20px;
+ font-weight: bold;
+ 
+}
+.alak{
+  font-size:35px;
+  color:#E30B5C ;
+  background-color:#FFDBDB;
+  border-radius: 20px;
+ font-weight: bold;
+ width:100%;
+}
+#aa{
+    
+    
+    border-bottom: 1px solid #FE1C34 ;
+    padding-top:5%;
+ }
+label,textarea {
+    
+    display: block;
+    margin: 0.5rem 0;
+    margin:10px 0 0 0;
+   
+
+  }
+
+#search{
+  border-color: black;
+
+  
+ 
+  
+ 
+  margin-left:4%;
+  
+  margin-top:8%;
+  
+} 
+  
+label{
+   color:#34FE1C;
+}
+ textarea {
+    background-color: white;
+    border :2px solid black;
+    border-radius: 20px;
+    
+  }
+  input{
+    background-color: white;
+    border :2px solid black;
+    width:40%;
+    height:40%;
+    border-radius: 20px;
+    margin-left:6%;
+    font-size:80%;
+    margin-top:2%;
+    display:block;
+
+    
+  }
+input:hover{
+  box-shadow: 0 0 10px #1AFE10;
+   border-color: #1AFE10;
+  
+  background-color:#48E6FB;
+  border-radius: 20px;
+
+  }
+  
+  textarea:hover{
+    background-color:#48E6FB ;
+    transition: width 4s;
+     box-shadow: 0 0 10px #1AFE10;
+   border-color: #1AFE10;
+
+  }
+ .form1 {
+    
+    
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+ 
+.alex{
+  width:60%;
+  height:60%;
+  display:flex;
+  margin-left: 18%;
+ 
+  justify-content: center;
+}
+#btn{
+  margin-left: 31%;
+  margin-top:5%;
+
+  background:white;
+  border-color:white;
+
+  
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  width:30%;
+  height:20%;
+  text-transform: uppercase;
+  cursor: pointer;
+  transform: skew(-21deg);
+  border-color: green;
+}
+
+
+
+
+button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  left: 0;
+  background: linear-gradient(#27E52C ,#2ab7ca );
+  opacity: 0;
+  z-index: -1;
+  transition: all 0.5s;
+}
+
+button:hover {
+  color: red;
+  box-shadow: 0 0 10px black;
+   border-color:black;
+
+}
+
+button:hover::before {
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+a{
+  text-decoration:none;
+  background-color: none;
+}
+
+marquee{
+  color: #89216B ;
+  font-weight: bold;
+  font-size:18px;
+  font-family:sans-serif;
+}
+.para{
+  font-size: 1.5rem;
+  font-family:cursive;
+  color:#f80759;
+}
+.about{
+  width:100%;
+  height:50%;
+
+ 
+}
+.icon1{
+  width:4%;
+  height:4%;
+  object-fit: contain;
+  border-radius: 5%;
+}
+@media only screen and (max-width: 750px){
+  .box{
+    width:90%;
+    background-color: red;
+  }
+  #search{
+    margin-right:3%;
+  }
+  .head{
+    display: block;
+  }
+  img{
+    width:30%;
+    height:30%;
+  }
+  h1{
+    width:75%;
+    
+  }
+  .para{
+    font-size:1rem;
+  }
+  #btn{
+    width:40%;
+  }
+  marquee{
+    font-size:14px;
+  }
+  .icon1{
+    width:8%;
+    height:8%;
+  }
+
+}
+h3{
+  color:#F10F24 ;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.container1{
+  background-color:#EAEDED;
+}
+.up{
+  text-transform: uppercase;
+}
+.hel{
+  margin-left:50%;
+
+
+}
+span{
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+}
+.ico{
+  
+ margin-left:50%;
+ 
+}
+
+
+  
+
+
+
+
+
+
+
+
+/*<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>*/
+    /*
+    "https://th.bing.com/th/id/OIP.R0JdreTR80KbA1bxQm0nCAHaE8?w=271&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Third slide"
+    "https://th.bing.com/th/id/OIP.R0JdreTR80KbA1bxQm0nCAHaE8?w=271&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Thi
+    https://th.bing.com/th/id/OIP.R0JdreTR80KbA1bxQm0nCAHaE8?w=271&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Third slide"
+    */
